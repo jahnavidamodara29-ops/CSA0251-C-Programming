@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main() {
+    int cp = 500, sp = 650;
+    int profit = sp - cp;
+    printf("Profit = %d", profit);
+    return 0;
+}
