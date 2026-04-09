@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main() {
+    float km = 5;
+    float meters = km * 1000;
+    printf("Meters = %.2f", meters);
+    return 0;
+}
