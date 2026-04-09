@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main() {
+    int m1 = 80, m2 = 90, m3 = 70;
+    int total = m1 + m2 + m3;
+    float percentage = total / 3.0;
+    printf("Total = %d\nPercentage = %.2f", total, percentage);
+    return 0;
+}
