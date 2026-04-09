@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main() {
+    int seconds = 3600;
+    int hours = seconds / 3600;
+    printf("Hours = %d", hours);
+    return 0;
+}
