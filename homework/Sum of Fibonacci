@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int N, a = 0, b = 1, c, sum = 0;
+
+    printf("Enter N: ");
+    scanf("%d", &N);
+
+    while(a <= N) {
+        if(a % 2 == 0) {
+            sum += a;
+        }
+
+        c = a + b;
+        a = b;
+        b = c;
+    }
+
+    printf("Even Fibonacci Sum = %d", sum);
+
+    return 0;
+}
